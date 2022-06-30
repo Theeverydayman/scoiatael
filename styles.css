@@ -1,0 +1,48 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p
+{
+    font-family: 'Arima', cursive;
+    font-size: 1.5em;
+    font-weight: 900;
+    margin-bottom: 1em;
+}
+
+img
+{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: block;
+}
+
+.container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.contact
+{
+    width: 75vw;
+    height: 3vh;
+}
